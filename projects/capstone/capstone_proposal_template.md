@@ -106,6 +106,8 @@ In this section, clearly describe a solution to the problem. The solution should
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
 
+Gouplens provides a open soure library to create recommender system LensKit(https://lenskit.org/).
+We can feed the same data through LensKit and observe if the recommendation provided by engine I created is in par with LensKit.
 
 
 In this section, provide the details for a benchmark model or result that relates to the domain, problem statement, and intended solution. Ideally, the benchmark model or result contextualizes existing methods or known information in the domain and problem given, which could then be objectively compared to the solution. Describe how the benchmark model or result is measurable (can be measured by some metric and clearly observed) with thorough detail.
