@@ -47,6 +47,43 @@ In this section, clearly describe the problem that is to be solved. The problem 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
 
+Dataset is taken from Grouplens(https://grouplens.org/datasets/movielens/).
+Structure of files :
+
+==> movies.csv <==
+movieId,title,genres
+1,Toy Story (1995),Adventure|Animation|Children|Comedy|Fantasy
+2,Jumanji (1995),Adventure|Children|Fantasy
+3,Grumpier Old Men (1995),Comedy|Romance
+4,Waiting to Exhale (1995),Comedy|Drama|Romance
+
+==> ratings.csv <==
+userId,movieId,rating,timestamp
+1,110,1.0,1425941529
+1,147,4.5,1425942435
+1,858,5.0,1425941523
+1,1221,5.0,1425941546
+
+==> tags.csv <==
+userId,movieId,tag,timestamp
+1,318,narrated,1425942391
+20,4306,Dreamworks,1459855607
+20,89302,England,1400778834
+20,89302,espionage,1400778836
+
+==> genome-tags.csv <==
+tagId,tag
+1,007
+2,007 (series)
+3,18th century
+4,1920s
+
+==> genome-scores.csv <==
+movieId,tagId,relevance
+1,1,0.024749999999999994
+1,2,0.024749999999999994
+1,3,0.04899999999999999
+1,4,0.07750000000000001
 
 
 In this section, the dataset(s) and/or input(s) being considered for the project should be thoroughly described, such as how they relate to the problem and why they should be used. Information such as how the dataset or input is (was) obtained, and the characteristics of the dataset or input, should be included with relevant references and citations as necessary It should be clear how the dataset(s) or input(s) will be used in the project and whether their use is appropriate given the context of the problem.
