@@ -27,11 +27,20 @@ In this section, provide brief details on the background information of the doma
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-Movie recommendation system for Indian movies.
+Movie recommendation system for Indian movies.Currently no recommmendation system has been created for Indian movies.
+The solution to use deep learning on data provided by Grouplens(https://grouplens.org/datasets/movielens/) and replicate on India
+Movie database after it is created.
 
-Currently no recommmendation system has been created for Indian movies.
+Quantifiable : 
+Based on ratings provided by user a user profile is created.
+Based on tags of the movies relevance between the movies are created.
+Using user profile and movies relevance recommendation are made to the user.
 
+Measurable :
+We can use the existing movielens service to test the recommendation made by the engine I developed.
 
+Replicable:
+The problem can be reproduced and occurs more than once.
 
 In this section, clearly describe the problem that is to be solved. The problem described should be well defined and should have at least one relevant potential solution. Additionally, describe the problem thoroughly such that it is clear that the problem is quantifiable (the problem can be expressed in mathematical or logical terms) , measurable (the problem can be measured by some metric and clearly observed), and replicable (the problem can be reproduced and occurs more than once).
 
