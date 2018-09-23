@@ -6,10 +6,13 @@ Septmeber 23rd, 2018
 ## Proposal
 _(approx. 2-3 pages)_
 
-Promotion of Indian Regional language movies.More than 1000 movies are launched every year in India.
+Promotion of Indian Regional language movies (Movie Recommendation System for Indian movies).
+More than 2000 movies are launched every year in India.
 Most of them are aware only of Bollywood movies,which comprises of one third of the movies.
-There has been a lot of development in Gujarathi,Bengali,Marathi,Telugu,Tamil and Kannada movies,which could be enjoyed by audience who are exposed to only bollywood movies.
+There has been a lot of development in Gujarathi,Bengali,Marathi,Telugu,Tamil and Kannada movies,which could be enjoyed by audience who are exposed to only Bollywood movies.
 Currently there are no application or website which would suggest people of movies apart from Bollywood.
+
+
 Movie Recommendation System for Indian audience
 
 ### Domain Background
