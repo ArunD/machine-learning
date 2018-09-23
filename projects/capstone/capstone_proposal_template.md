@@ -115,14 +115,31 @@ To evaluate accuracy of predicted ratings I will use Root Mean Squared Error (RM
 (https://en.wikipedia.org/wiki/Root-mean-square_deviation)
 The root-mean-squared error (RMSE)  is a frequently used measure of the differences between values (sample or population values) predicted by a model or an estimator and the values observed. The RMSD represents the square root of the second sample moment of the differences between predicted values and observed values or the quadratic mean of these differences. These deviations are called residuals when the calculations are performed over the data sample that was used for estimation and are called errors (or prediction errors) when computed out-of-sample. The RMSD serves to aggregate the magnitudes of the errors in predictions for various times into a single measure of predictive power. RMSD is a measure of accuracy, to compare forecasting errors of different models for a particular dataset and not between datasets, as it is scale-dependent. 
 
-
-
-
-
 In this section, propose at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model. The evaluation metric(s) you propose should be appropriate given the context of the data, the problem statement, and the intended solution. Describe how the evaluation metric(s) are derived and provide an example of their mathematical representations (if applicable). Complex evaluation metrics should be clearly defined and quantifiable (can be expressed in mathematical or logical terms).
 
 ### Project Design
 _(approx. 1 page)_
+
+The main components of my neural network:
+
+1.A left neural network layer that creates Users matrix.
+A right neural network layer that creates Movies matrix.
+The input to the left layer are user and rating data 
+The input to the right layer are movies and tags data
+A merge layer that takes the dot product of these two vectors to return the predicted rating.
+
+2.This code is based on the approach outlined in Alkahest’s blog post Collaborative Filtering in Keras.
+
+3.Compile the model using Mean Squared Error (MSE) as the loss function and the AdaMax learning algorithm.
+
+4.Split the training and test data in 80/20.
+
+5.Train the model on different epochs. 
+Callbacks monitor the validation loss
+Save the model weights each time the validation loss has improved 
+
+6.The next step is to actually predict the ratings a random user will give to a random movie. 
+
 
 In this final section, summarize a theoretical workflow for approaching a solution given the problem. Provide thorough discussion for what strategies you may consider employing, what analysis of the data might be required before being used, or which algorithms will be considered for your implementation. The workflow and discussion that you provide should align with the qualities of the previous sections. Additionally, you are encouraged to include small visualizations, pseudocode, or diagrams to aid in describing the project design, but it is not required. The discussion should clearly outline your intended workflow of the capstone project.
 
