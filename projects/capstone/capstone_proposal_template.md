@@ -91,7 +91,17 @@ In this section, the dataset(s) and/or input(s) being considered for the project
 ### Solution Statement
 _(approx. 1 paragraph)_
 
-In this section, clearly describe a solution to the problem. The solution should be applicable to the project domain and appropriate for the dataset(s) or input(s) given. Additionally, describe the solution thoroughly such that it is clear that the solution is quantifiable (the solution can be expressed in mathematical or logical terms) , measurable (the solution can be measured by some metric and clearly observed), and replicable (the solution can be reproduced and occurs more than once).
+Collaberative filtering in Keras.
+
+The idea of using deep learning is similar to that of Matrix Factorization. 
+The idea behind matrix factorization is to represent users and items in a lower dimensional latent space . 
+(https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems))
+Matrix factorization is a class of collaborative filtering algorithms used in recommender systems. 
+Matrix factorization algorithms work by decomposing the user-item interaction matrix into the product of two lower dimensionality rectangular matrices. This family of methods became widely known during the Netflix prize challenge due to its effectiveness as reported by Simon Funk in his 2006 blog post, where he shared his findings with the research community.
+
+For deep learning implementation, we don’t need them to be matrix form, we want our model to learn the values of embedding matrix itself. The user latent features and movie latent features are looked up from the embedding matrices for specific movie-user combination. These are the input values for further linear and non-linear layers. We can pass this input to multiple relu, linear or sigmoid layers and learn the corresponding weights by any optimization algorithm (Adam, SGD, etc.).
+
+In this section, clearly describe a solution to the problem. The solution should be applicable to project domain and appropriate for the dataset(s) or input(s) given. Additionally, describe the solution thoroughly such that it is clear that the solution is quantifiable (the solution can be expressed in mathematical or logical terms) , measurable (the solution can be measured by some metric and clearly observed), and replicable (the solution can be reproduced and occurs more than once).
 
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
