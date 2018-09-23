@@ -42,7 +42,6 @@ Dataset is taken from Grouplens(https://grouplens.org/datasets/movielens/).
 Structure of files :
 
 ==> movies.csv <==
-
 movieId,title,genres
 1,Toy Story (1995),Adventure|Animation|Children|Comedy|Fantasy
 2,Jumanji (1995),Adventure|Children|Fantasy
