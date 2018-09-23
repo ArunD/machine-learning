@@ -44,13 +44,9 @@ Structure of files :
 ==> movies.csv <==
 
 movieId,title,genres
-
 1,Toy Story (1995),Adventure|Animation|Children|Comedy|Fantasy
-
 2,Jumanji (1995),Adventure|Children|Fantasy
-
 3,Grumpier Old Men (1995),Comedy|Romance
-
 4,Waiting to Exhale (1995),Comedy|Drama|Romance
 
 ==> ratings.csv <==
